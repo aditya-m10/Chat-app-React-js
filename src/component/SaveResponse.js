@@ -118,7 +118,7 @@ function SaveResponse() {
               placeholder="Enter your message"
               onChange={handleUserMessageChange} value = {userMessage}
             />
-            <button>Submit</button>
+            <button type="submit">Submit</button>
           </form>
         </div>
 
